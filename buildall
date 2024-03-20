@@ -7,7 +7,7 @@ make CFLAGS+=-DDONT_USE_GETHOSTBYNAME
 #
 # install them for e.g. PERL
 #
-sudo make install
+make install
 #make dynamic
 rm *.o
 make -f MAKEFILE.VC.WINE
